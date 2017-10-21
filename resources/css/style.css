@@ -23,6 +23,10 @@ header {
   margin: auto;
 }
 
+.logo-mobile {
+  display: none;
+}
+
 nav {
   align-items: center;
   background-color: cadetblue;
@@ -125,7 +129,7 @@ footer img {
   margin-right: 1rem;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 100%;
   }
@@ -142,5 +146,36 @@ footer img {
   .moto h1 {
     font-size: 1.33rem;
     margin: 0.75rem 4rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  nav.container {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
+
+  header {
+    background-position: 22%;
+  }
+
+  div.flex-header {
+    justify-content: flex-start;
+  }
+
+  .moto {
+    margin-top: 19rem;
+  }
+
+  div.flex-header h1 {
+    font-size: 1rem;
+    padding-right: 2.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
