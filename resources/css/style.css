@@ -3,6 +3,12 @@ body {
   line-height: 1.4;
 }
 
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 header {
   background-image: url('../images/glasses-bg.png');
   background-repeat: no-repeat;
@@ -41,4 +47,21 @@ nav div {
 
 .select-options span {
   margin: 1rem 2rem;
+}
+
+.company-moto {
+  background-color: white;
+  justify-content: flex-end;
+  margin-right: -2rem;
+  margin-top: 10rem;
+  text-align: right;
+  width: fit-content;
+}
+
+.company-moto h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 1.5rem 5rem;
 }
