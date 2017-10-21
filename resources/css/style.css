@@ -16,7 +16,6 @@ header {
   background-position: center;
   background-size: cover;
   height: 30rem;
-  padding-top: 1rem;
 }
 
 .container {
@@ -124,4 +123,24 @@ footer {
 footer img {
   height: 1.5rem;
   margin-right: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 22rem;
+  }
+
+  .moto {
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+
+  .moto h1 {
+    font-size: 1.33rem;
+    margin: 0.75rem 4rem;
+  }
 }
