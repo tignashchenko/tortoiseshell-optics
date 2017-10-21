@@ -150,6 +150,9 @@ footer img {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
   nav.container {
     display: none;
   }
@@ -199,5 +202,40 @@ footer img {
 
   .service div {
     font-size: 0.77rem;
+  }
+
+  .main-section {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-section p {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+
+  .philosophy, .appointment {
+    width: 100%;
+  }
+
+  .title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  footer img {
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+  }
+
+  footer span {
+    display: none;
   }
 }
