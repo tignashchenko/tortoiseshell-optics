@@ -88,3 +88,27 @@ nav div {
 .fittings, .delivery {
   width: 5rem;
 }
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.philosophy, .appointment {
+  margin: 0 2.5%;
+  width: 35%;
+}
+
+.philosophy p, .appointment p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+}
