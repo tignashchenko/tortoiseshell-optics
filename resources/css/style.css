@@ -178,4 +178,26 @@ footer img {
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
+
+  .services {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3.77rem;
+  }
+
+  .services :nth-child(2), .services :nth-child(3) {
+    margin-top: 1.54rem;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .service div {
+    font-size: 0.77rem;
+  }
 }
